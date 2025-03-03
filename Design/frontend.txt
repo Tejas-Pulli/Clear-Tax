@@ -1,0 +1,42 @@
+src/
+├── api/                                   # API service layer
+│   ├── axiosInstance.js                   # Axios setup with JWT interceptor
+│   ├── authService.js                     # Login, registration, logout
+│   ├── userService.js                     # Fetch user-related data
+│
+├── assets/                                # Static assets (images, CSS, etc.)
+│   ├── logo.png
+│   ├── styles.css
+│
+├── components/                            # Reusable UI components
+│   ├── Navbar.js
+│   ├── Sidebar.js
+│   ├── Footer.js
+│
+├── pages/                                 # Page components
+│   ├── Login.js
+│   ├── Register.js
+│   ├── Dashboard.js
+│   ├── AdminDashboard.js
+│   ├── IncomeForm.js
+│   ├── DeductionForm.js
+│   ├── TaxSummary.js
+│
+├── context/                               # Context API for global state
+│   ├── AuthContext.js
+│
+├── hooks/                                 # Custom hooks
+│   ├── useAuth.js
+│
+├── routes/                                # Route definitions
+│   ├── AppRoutes.js                       # All app routes
+│   ├── PrivateRoute.js                    # Route guard for authenticated users
+│
+├── utils/                                 # Utility functions
+│   ├── jwtDecoder.js                      # Decode JWT token
+│   ├── constants.js                       # Common constants
+│
+├── App.js                                 # Main React component
+├── index.js                               # Entry point
+├── package.json                           # Project dependencies
+
