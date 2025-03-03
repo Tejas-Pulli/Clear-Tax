@@ -1,5 +1,6 @@
 use TaxCalculationDb
 
+
 select * from users;
 select * from income;
 select * from deduction;
@@ -8,6 +9,7 @@ select * from tax_filling;
 select * from tax_payment;
 select * from tax_refund;
 
+--drop table user
 --drop table users
 --drop table income
 --drop table deduction
