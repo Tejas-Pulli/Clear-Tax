@@ -36,13 +36,19 @@ cd tax-management-system
 - Configure the database in `application.properties`.  
 - Run the Spring Boot application:  
   ```bash
+  cd Backend
+  cd ClearTax
   mvn spring-boot:run
   ```
 
 ### 3️⃣ Frontend Setup (Vite + React)  
 - Navigate to the frontend directory:  
   ```bash
-  cd frontend
+  cd Frontend
+  ```
+- Navigate to the frontend directory:  
+  ```bash
+  cd clear-tax-app
   ```
 - Install dependencies:  
   ```bash
